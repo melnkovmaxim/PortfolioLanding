@@ -5,7 +5,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="icon" href="/images/icons/icon.png">
+
+    <!-- CSS links! -->
+    <link href="/blocks/about-me/about-me.css" rel="stylesheet">
+    <link href="/blocks/about/about.css" rel="stylesheet">
+    <link href="/blocks/arrow/arrow.css" rel="stylesheet">
+    <link href="/blocks/btn/btn.css" rel="stylesheet">
+    <link href="/blocks/caption/caption.css" rel="stylesheet">
+    <link href="/blocks/carousel/carousel.css" rel="stylesheet">
+    <link href="/blocks/container/container.css" rel="stylesheet">
+    <link href="/blocks/editor-button/editor-button.css" rel="stylesheet">
+    <link href="/blocks/footer/footer.css" rel="stylesheet">
+    <link href="/blocks/header/header.css" rel="stylesheet">
+    <link href="/blocks/link-list/link-list.css" rel="stylesheet">
+    <link href="/blocks/main/main.css" rel="stylesheet">
+    <link href="/blocks/nav-bar/nav-bar.css" rel="stylesheet">
+    <link href="/blocks/project-call/project-call.css" rel="stylesheet">
+    <link href="/blocks/rating/rating.css" rel="stylesheet">
+    <link href="/blocks/sample-list/sample-list.css" rel="stylesheet">
+    <link href="/blocks/signature/signature.css" rel="stylesheet">
+    <link href="/blocks/slider/slider.css" rel="stylesheet">
+    <link href="/blocks/subscription/subscription.css" rel="stylesheet">
+    <link href="/blocks/technologies/technologies.css" rel="stylesheet">
+    <link href="/blocks/technology-card/technology-card.css" rel="stylesheet">
+    <link href="/blocks/testimonials/testimonials.css" rel="stylesheet">
+    <link href="/blocks/text/text.css" rel="stylesheet">
+    <link href="/blocks/tip/tip.css" rel="stylesheet">
+    <link href="/blocks/title/title.css" rel="stylesheet">
+    <link href="/blocks/user/user.css" rel="stylesheet">
+    <link href="/blocks/works/works.css" rel="stylesheet">
+
+    <!-- JS links! -->
+    <script src="/blocks/about-me/about-me.js"></script>
+    <script src="/blocks/about/about.js"></script>
+    <script src="/blocks/arrow/arrow.js"></script>
+    <script src="/blocks/btn/btn.js"></script>
+    <script src="/blocks/caption/caption.js"></script>
+    <script src="/blocks/carousel/carousel.js"></script>
+    <script src="/blocks/container/container.js"></script>
+    <script src="/blocks/editor-button/editor-button.js"></script>
+    <script src="/blocks/footer/footer.js"></script>
+    <script src="/blocks/header/header.js"></script>
+    <script src="/blocks/link-list/link-list.js"></script>
+    <script src="/blocks/main/main.js"></script>
+    <script src="/blocks/nav-bar/nav-bar.js"></script>
+    <script src="/blocks/project-call/project-call.js"></script>
+    <script src="/blocks/rating/rating.js"></script>
+    <script src="/blocks/sample-list/sample-list.js"></script>
+    <script src="/blocks/signature/signature.js"></script>
+    <script src="/blocks/slider/slider.js"></script>
+    <script src="/blocks/subscription/subscription.js"></script>
+    <script src="/blocks/technologies/technologies.js"></script>
+    <script src="/blocks/technology-card/technology-card.js"></script>
+    <script src="/blocks/testimonials/testimonials.js"></script>
+    <script src="/blocks/text/text.js"></script>
+    <script src="/blocks/tip/tip.js"></script>
+    <script src="/blocks/title/title.js"></script>
+    <script src="/blocks/user/user.js"></script>
+    <script src="/blocks/works/works.js"></script>
+
+    <title>Portfolio</title>
 </head>
 
 <body>
@@ -126,12 +186,12 @@
                 </div>
             </div>
             <div class="sample-list">
-                <img class="sample" src="/images/works/work-1.png" alt="Sample 1">
-                <img class="sample" src="/images/works/work-2.png" alt="Sample 2">
-                <img class="sample" src="/images/works/work-3.png" alt="Sample 3">
-                <img class="sample" src="/images/works/work-4.png" alt="Sample 4">
-                <img class="sample" src="/images/works/work-5.png" alt="Sample 5">
-                <img class="sample" src="/images/works/work-6.png" alt="Sample 6">
+                <img class="sample-list__sample" src="/images/works/work-1.png" alt="Sample 1">
+                <img class="sample-list__sample" src="/images/works/work-2.png" alt="Sample 2">
+                <img class="sample-list__sample" src="/images/works/work-3.png" alt="Sample 3">
+                <img class="sample-list__sample" src="/images/works/work-4.png" alt="Sample 4">
+                <img class="sample-list__sample" src="/images/works/work-5.png" alt="Sample 5">
+                <img class="sample-list__sample" src="/images/works/work-6.png" alt="Sample 6">
             </div>
         </section>
         <section class="testimonials">
@@ -146,7 +206,7 @@
                             <img src="/images/khushi-small-photo.jpg" alt="Khushi Gupta" class="user__img">
                             <span class="user__name">
                                 Khushi Gupta
-                                <p class="profession">Designer</p>
+                                <p class="user__profession">Designer</p>
                             </span>
                         </div>
                         <div class="rating rating--five"></div>
@@ -155,7 +215,7 @@
                             <img src="/images/khushi-small-photo.jpg" alt="Khushi Gupta" class="user__img">
                             <span class="user__name">
                                 Khushi Gupta
-                                <p class="profession">Designer</p>
+                                <p class="user__profession">Designer</p>
                             </span>
                         </div>
                         <div class="rating rating--five"></div>
@@ -164,7 +224,7 @@
                             <img src="/images/khushi-small-photo.jpg" alt="Khushi Gupta" class="user__img">
                             <span class="user__name">
                                 Khushi Gupta
-                                <p class="profession">Designer</p>
+                                <p class="user__profession">Designer</p>
                             </span>
                         </div>
                     </div>
@@ -182,10 +242,10 @@
             </div>
         </div>
         <footer class="footer container--flex">
-            <div class="about-short">
-                <span class="about-short__name">
+            <div class="signature">
+                <span class="signature__title">
                     Kartik Bansal.
-                    <p class="about-short__desc">Creative designer & front-end developer</p>
+                    <p class="signature__desc">Creative designer & front-end developer</p>
                 </span>
             </div>
             <div class="link-list">
