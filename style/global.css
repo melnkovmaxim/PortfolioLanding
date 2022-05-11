@@ -1,0 +1,35 @@
+@import url("/style/normalize.css");
+
+@import url("/blocks/about-me/about-me.css");
+@import url("/blocks/about/about.css");
+@import url("/blocks/arrow/arrow.css");
+@import url("/blocks/btn/btn.css");
+@import url("/blocks/caption/caption.css");
+@import url("/blocks/about-me/about-me.css");
+@import url("/blocks/carousel/carousel.css");
+@import url("/blocks/container/container.css");
+@import url("/blocks/about-me/about-me.css");
+@import url("/blocks/editor-button/editor-button.css");
+@import url("/blocks/footer/footer.css");
+@import url("/blocks/header/header.css");
+@import url("/blocks/link-list/link-list.css");
+@import url("/blocks/main/main.css");
+@import url("/blocks/nav-bar/nav-bar.css");
+@import url("/blocks/project-call/project-call.css");
+@import url("/blocks/rating/rating.css");
+@import url("/blocks/sample-list/sample-list.css");
+@import url("/blocks/signature/signature.css");
+@import url("/blocks/slider/slider.css");
+@import url("/blocks/subscription/subscription.css");
+@import url("/blocks/technologies/technologies.css");
+@import url("/blocks/technology-card/technology-card.css");
+@import url("/blocks/testimonials/testimonials.css");
+@import url("/blocks/text/text.css");
+@import url("/blocks/tip/tip.css");
+@import url("/blocks/title/title.css");
+@import url("/blocks/user/user.css");
+@import url("/blocks/works/works.css");
+
+body {
+    background-color: #212529;
+}

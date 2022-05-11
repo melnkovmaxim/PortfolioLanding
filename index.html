@@ -6,37 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="/images/icons/icon.png">
+    <link href="/style/global.css" rel="stylesheet">
 
-    <!-- CSS links! -->
-    <link href="/blocks/about-me/about-me.css" rel="stylesheet">
-    <link href="/blocks/about/about.css" rel="stylesheet">
-    <link href="/blocks/arrow/arrow.css" rel="stylesheet">
-    <link href="/blocks/btn/btn.css" rel="stylesheet">
-    <link href="/blocks/caption/caption.css" rel="stylesheet">
-    <link href="/blocks/carousel/carousel.css" rel="stylesheet">
-    <link href="/blocks/container/container.css" rel="stylesheet">
-    <link href="/blocks/editor-button/editor-button.css" rel="stylesheet">
-    <link href="/blocks/footer/footer.css" rel="stylesheet">
-    <link href="/blocks/header/header.css" rel="stylesheet">
-    <link href="/blocks/link-list/link-list.css" rel="stylesheet">
-    <link href="/blocks/main/main.css" rel="stylesheet">
-    <link href="/blocks/nav-bar/nav-bar.css" rel="stylesheet">
-    <link href="/blocks/project-call/project-call.css" rel="stylesheet">
-    <link href="/blocks/rating/rating.css" rel="stylesheet">
-    <link href="/blocks/sample-list/sample-list.css" rel="stylesheet">
-    <link href="/blocks/signature/signature.css" rel="stylesheet">
-    <link href="/blocks/slider/slider.css" rel="stylesheet">
-    <link href="/blocks/subscription/subscription.css" rel="stylesheet">
-    <link href="/blocks/technologies/technologies.css" rel="stylesheet">
-    <link href="/blocks/technology-card/technology-card.css" rel="stylesheet">
-    <link href="/blocks/testimonials/testimonials.css" rel="stylesheet">
-    <link href="/blocks/text/text.css" rel="stylesheet">
-    <link href="/blocks/tip/tip.css" rel="stylesheet">
-    <link href="/blocks/title/title.css" rel="stylesheet">
-    <link href="/blocks/user/user.css" rel="stylesheet">
-    <link href="/blocks/works/works.css" rel="stylesheet">
-
-    <!-- JS links! -->
     <script src="/blocks/about-me/about-me.js"></script>
     <script src="/blocks/about/about.js"></script>
     <script src="/blocks/arrow/arrow.js"></script>
@@ -65,23 +36,32 @@
     <script src="/blocks/user/user.js"></script>
     <script src="/blocks/works/works.js"></script>
 
+    <!-- Fonts 
+        font-family: 'Inter', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Work Sans', sans-serif;  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Poppins:wght@400;600;700&family=Roboto:wght@500;700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    
     <title>Portfolio</title>
 </head>
 
 <body>
     <div class="container">
-        <header class="header">
-            <img class="icon" src="/images/icons/icon.png" alt="Icon">
+        <header class="header container__header">
+            <img class="header__icon" src="/images/icons/icon.png" alt="Icon">
             <div class="header__nav-bar">
-                <div class="nav-bar">
-                    <a class="nav-bar__item" href="#">Home</a>
-                    <a class="nav-bar__item" href="#">About</a>
-                    <a class="nav-bar__item" href="#">Skills</a>
-                    <a class="nav-bar__item" href="#">Portfolio</a>
-                    <a class="nav-bar__item" href="#">Contract</a>
-                </div>
+                <ul class="nav-bar">
+                    <li class="nav-bar__item"><a href="#">Home</a></li>
+                    <li class="nav-bar__item"><a href="#">About</a></li>
+                    <li class="nav-bar__item"><a href="#">Skills</a></li>
+                    <li class="nav-bar__item"><a href="#">Portfolio</a></li>
+                    <li class="nav-bar__item"><a href="#">Contract</a></li>
+                </ul>
             </div>
-            <a class="btn" href="/"></a>
+            <a class="btn header__btn" href="/">Hire Me</a>
         </header>
         <section class="main">
             <div class="main__inner">
