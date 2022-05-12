@@ -1,0 +1,8 @@
+.achievements {
+    display: flex;
+    justify-content: space-between;
+}
+
+.achievements__arrow {
+    margin: 50px 30px;
+}

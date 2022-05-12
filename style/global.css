@@ -1,5 +1,8 @@
 @import url("/style/normalize.css");
 
+@import url("/blocks/skills/skills.css");
+@import url("/blocks/achievement-card/achievement-card.css");
+@import url("/blocks/achievements/achievements.css");
 @import url("/blocks/about-me/about-me.css");
 @import url("/blocks/about/about.css");
 @import url("/blocks/arrow/arrow.css");

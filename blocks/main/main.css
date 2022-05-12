@@ -1,0 +1,32 @@
+.main {
+
+}
+
+.main__inner {
+    text-align: center;
+}
+
+.main__text {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #fff;
+}
+
+.main__text > span {
+    color: #ffb742;
+    text-decoration: underline;
+}
+
+.main__text--large {
+    font-size: 48px;
+}
+
+.main__text--small {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.main__achievements {
+    margin-top: 136px;
+}

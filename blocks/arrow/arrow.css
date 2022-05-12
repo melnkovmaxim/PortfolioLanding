@@ -1,0 +1,12 @@
+.arrow {
+    width: 5px;
+    height: 5px;
+    padding: 2.5px;
+    transform-origin: top left;
+    border-top: 2px solid #b3b3b3;
+    border-right: 2px solid #b3b3b3;
+}
+
+.arrow--right {
+    transform: rotate(45deg);
+}

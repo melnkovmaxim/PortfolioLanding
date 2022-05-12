@@ -5,3 +5,15 @@
 .container__header {
     margin-top: 17px;
 }
+
+.container__main {
+    margin-top: 108px;
+}
+
+.container__about {
+    margin-top: 136px;
+}
+
+.container__skills {
+    margin-top: 137px;
+}

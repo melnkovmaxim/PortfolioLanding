@@ -9,6 +9,15 @@
 
 .nav-bar__item {
     list-style-type: none;
+    color: #fff;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.nav-bar__item:hover {
+    color: #ffb742;
 }
 
 .nav-bar__item > a {
