@@ -51,7 +51,7 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container container__self">
         <header class="header container__header">
             <img class="header__icon" src="/images/icons/icon.png" alt="Icon">
             <div class="header__nav-bar">
@@ -176,17 +176,20 @@
         </section>
         </section>
         <section class="works">
-            <p class="caption">My works</p>
-            <p class="title">Featured works</p>
+            <div class="works__text works__text--center">
+                <span class="caption">My works</span>
+                <br>
+                <span class="title">Featured works</span>
+            </div>
             <div class="works__nav-bar">
                 <div class="nav-bar">
-                    <a class="nav-bar__item nav-bar__item--hover-background" href="#">All</a>
-                    <a class="nav-bar__item nav-bar__item--hover-background" href="#">Mobile App</a>
-                    <a class="nav-bar__item nav-bar__item--hover-background" href="#">Website Design</a>
-                    <a class="nav-bar__item nav-bar__item--hover-background" href="#">Website Development</a>
+                    <a class="nav-bar__item nav-bar__item--on-hover-inverted-colors" href="#">All</a>
+                    <a class="nav-bar__item nav-bar__item--on-hover-inverted-colors" href="#">Mobile App</a>
+                    <a class="nav-bar__item nav-bar__item--on-hover-inverted-colors" href="#">Website Design</a>
+                    <a class="nav-bar__item nav-bar__item--on-hover-inverted-colors" href="#">Website Development</a>
                 </div>
             </div>
-            <div class="sample-list">
+            <div class="sample-list works__sample-list">
                 <img class="sample-list__sample" src="/images/works/work-1.png" alt="Sample 1">
                 <img class="sample-list__sample" src="/images/works/work-2.png" alt="Sample 2">
                 <img class="sample-list__sample" src="/images/works/work-3.png" alt="Sample 3">

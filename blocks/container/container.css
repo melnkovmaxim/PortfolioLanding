@@ -1,5 +1,10 @@
 .container {
-    margin: 0px 48px 0px 50px;
+    max-width: 1342px;
+}
+
+.container__self {
+    margin: 0 auto;
+    
 }
 
 .container__header {

@@ -1,5 +1,5 @@
 .btn {
-    position: relative;
+    display: inline-block;
     padding: 12px 26px;
     color: #212529;
     text-decoration: none;

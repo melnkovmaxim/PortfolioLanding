@@ -1,0 +1,16 @@
+.works {
+    margin-top: 137px;
+}
+
+.works__text--center {
+    text-align: center;
+}
+
+.works__nav-bar {
+    max-width: 652px;
+    margin: 32px auto 0px;
+}
+
+.works__sample-list {
+    margin-top: 50px;
+}

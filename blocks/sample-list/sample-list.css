@@ -1,0 +1,23 @@
+.sample-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-auto-flow: column;
+    justify-items: stretch;
+    gap: 32px;
+}
+
+.sample-list__sample:nth-child(1) {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.sample-list__sample:nth-child(4) {
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.sample-list__sample:nth-child(5) {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}

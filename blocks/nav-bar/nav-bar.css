@@ -14,10 +14,24 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 18px;
+    line-height: 30px;
+    text-decoration: none;
 }
 
 .nav-bar__item:hover {
     color: #ffb742;
+}
+
+.nav-bar__item--on-hover-inverted-colors {
+    padding: 5px 20px;
+    border-radius: 3px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.nav-bar__item--on-hover-inverted-colors:hover {
+    color: #212529;
+    background-color: #ffb742;
 }
 
 .nav-bar__item > a {
