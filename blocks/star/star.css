@@ -1,0 +1,7 @@
+.star:before {
+    content: '★';
+}
+
+.star--active {
+    color: #FFB742;
+}

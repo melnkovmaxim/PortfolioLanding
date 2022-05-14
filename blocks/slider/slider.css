@@ -1,0 +1,12 @@
+.slider {
+    display: flex;
+    justify-content: center;
+}
+
+.slider__item {
+    margin-left: 15px;
+    width: 20px;
+    background-color: #bb842c;
+    border: 10px solid #bb842c;
+    border-radius: 30%;
+}

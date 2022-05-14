@@ -1,0 +1,28 @@
+.carousel-card {
+    width: 379px;
+    height: 444px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.carousel-card__inner {
+    padding: 51px 52px 48px 32px;
+}
+
+.carousel-card__review {
+    margin-top: 21px;
+    max-height: 204px;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+}
+
+.carousel-card__author {
+    margin-top: 36px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}

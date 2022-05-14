@@ -1,0 +1,17 @@
+.author__info {
+    margin-left: 24px;
+}
+
+.author__name {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 10px;
+}
+
+.author__profession {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 10px;
+}
