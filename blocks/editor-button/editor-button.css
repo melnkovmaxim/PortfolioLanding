@@ -1,0 +1,53 @@
+.editor-button {
+    height: 63px;
+    position: relative;
+    width: 100%;
+    min-width: 150px;
+    border-radius: 49px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* padding: 20px 24px; */
+    overflow: hidden;
+    background-color: #212529;
+}
+
+.editor-button__wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.editor-button__input {
+    background-color: #212529;
+    color: #7c7c7c;
+    outline: none;
+    border: none;
+    height: 100%;
+    width: 60%;
+    margin-left: 25px;
+}
+
+.editor-button__button{
+    position: absolute;
+    right: 0;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    background-color: #ffb742;
+    width: 63px;
+    height: 63px;
+    border-radius: 49px;
+    border-color: #ffb742;
+    cursor: pointer;
+}
+
+.editor-button__button > img {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}

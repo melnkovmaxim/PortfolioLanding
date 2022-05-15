@@ -4,10 +4,12 @@
 
 .carousel__inner {
     display: flex;
+    transition: 2s;
 }
 
 .carousel__slide {
     display: flex;
+    margin-right: 20px;
     justify-content: space-between;
     flex-shrink: 0;
     width: 100%;

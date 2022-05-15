@@ -1,10 +1,10 @@
 .container {
     max-width: 1342px;
+    margin: 0 auto;
 }
 
 .container__self {
     margin: 0 auto;
-    
 }
 
 .container__header {
@@ -29,4 +29,18 @@
 
 .container__testimonials {
     margin-top: 138px;
+}
+
+.container__footer {
+    margin-top: 204px;
+}
+
+.container--full-width {
+    max-width: 100%;
+}
+
+.container__project-call {
+    position: relative;
+    max-height: 174px;
+    max-width: 1116px;
 }

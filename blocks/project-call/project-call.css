@@ -1,0 +1,36 @@
+.project-call {
+    position: relative;
+    height: 174px;
+    width: 1116px;
+    margin: 0 auto;
+}
+
+.project-call__title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 54px;
+}
+
+.project-call__text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    max-width: 359px;
+    text-align: center;
+}
+
+.project-call__inner {
+    background-color: #ffb742;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    height: 100%;
+    border-radius: 15px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
