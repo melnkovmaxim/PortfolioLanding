@@ -1,6 +1,10 @@
 # Верстка сайта по макету
 
-**Ссылка на макет: [figma](https://www.figma.com/file/VdvQiIuaVDrsRWO4jRwVZq/Personal-portfolio-Website-landing-page-UX-UI-kit-(Community)?node-id=6%3A4)**
+**Ссылки на макет:**
+
+[figma](https://www.figma.com/file/VdvQiIuaVDrsRWO4jRwVZq/Personal-portfolio-Website-landing-page-UX-UI-kit-(Community)?node-id=6%3A4)
+
+[yandex-disk](https://disk.yandex.ru/d/LpNvYVmeukz8Fg)
 
 ### Используемые технологии
 1. HTML
